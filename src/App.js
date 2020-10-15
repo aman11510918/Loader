@@ -1,8 +1,11 @@
-import React from 'react';
+import React from "react";
+import Loader from "./component/loader/loader.index";
 
 function App() {
   return (
-    <div>Loader</div>
+    <div className="text">
+      <Loader />
+    </div>
   );
 }
 
